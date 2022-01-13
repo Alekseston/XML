@@ -1,1 +1,19 @@
-
+<?xml version="1.0"?>
+<Title>The problem with the design in the footer of the site 
+is always on all pages with a dark theme</Title>,
+<Environment>
+<Device>Laptop Lenovo 13s-IWL</Device>,
+<OS>Windows 10 Pro x64</OS>,
+<Connection type>WiFi</Connection type>,
+<Browser>Chrome 97.0.4692.71 64bit</Browser>,
+<Reproducibility Rate>3</Reproducibility Rate>
+</Environment>,
+<Steps to Reproduce><1>Open https://enholding.ru/</1>,
+<2>Scroll to show footer</2>
+</Steps to Reproduce>,
+<Expected Result>Background design with smooth transitions</Expected Result>,
+<Actual Result>Around the light switch there is a sharp transition to the rest of the background 
+and the line separating the basement changes its thickness abruptly"</Actual Result>,
+<Proof>https://github.com/Alekseston/JSON/blob/dce654e94ac0f9acf22fe9e4474e099480290a4d/
+screenshot-enholding.ru-2022.01.13-10_36_38.png</Proof>,
+<Severity/Priority>Medium</Severity/Priority>
